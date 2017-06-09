@@ -1,5 +1,5 @@
 jobs:
-  - name: runsh-job-pvb
+  - name: runsh-job-pvt
     type: runSh
     allowPublicAccess: false
     steps:
@@ -19,7 +19,7 @@ jobs:
         - script: IN/sample-pvt/gitRepo/echo.sh
         
         
-  - name: manifest_dep
+  - name: manifest_dep_pvt
     type: manifest
     steps:
       - IN: sample_img_pvt  
