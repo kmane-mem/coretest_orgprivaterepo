@@ -24,22 +24,22 @@ integrations:
         
         
       
-    #- integrationName: notify-slack 
-     # type: slack
-     #  - "#random" 
-      #  - "#rc-public" 
-      #  - "#rc-private"
+    - integrationName: notify-slack 
+      type: slack
+       #- "#random" 
+        - "#rc-public" 
+        - "#rc-private"
       
    # - integrationName: irc    
     #  type: irc
     #  recipients:
      #   - "chat.freenode.net#test-rc"
       
-    #- integrationName: notify-hipchat
-     # type: hipchat
-     # recipients:
-      #  - '#rc-private'
-       # - '#rc-public'
+    - integrationName: notify-hipchat
+      type: hipchat
+      recipients:
+        - '#rc-private'
+        - '#rc-public'
        # - '@shiptestrcow'
         #- '@shiptest'
         
