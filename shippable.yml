@@ -26,9 +26,10 @@ integrations:
       
     - integrationName: notify-slack 
       type: slack
-       #- "#random" 
-        - "#rc-public" 
-        - "#rc-private"
+      recipients:
+        - '#rc-private'
+        - '#rc-public'
+        
       
    # - integrationName: irc    
     #  type: irc
